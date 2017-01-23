@@ -1,0 +1,64 @@
+html{
+	background-image: url("TimesSquareBG.jpg");
+	background-size: cover;
+}
+
+body{
+	/*.fancytext{*/
+    font-style: normal;
+    font-family: 'Raleway', sans-serif;
+/*}*/
+}
+/*.whitebox{
+		 
+	position: absolute;
+	z-index: -1;
+	 top: 5%;
+	 left: 36.6%;
+
+}*/
+.back{
+		color: white;
+	    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    background-color: #808080;
+	width: 366px;
+	margin: auto;
+	padding-bottom: 15px;
+}
+.header{
+	z-index: 1;
+
+}
+
+.fullname{
+	top: 1000px;
+	z-index: 1;
+}
+.Login{
+	color: white;
+	    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: right;
+    background-color: #808080;
+	width: 366px;
+	margin: auto;
+	padding-bottom: 15px;
+
+	
+}
+#submit{
+    text-align: center;
+}
+#keelurself:visited
+{
+	color: white;
+}
+#keelurself{
+	color: white;
+}
