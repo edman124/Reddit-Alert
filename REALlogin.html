@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="home.css">
+<link href='https://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="signLoginCSS.css">
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]> <html class="lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+<title>Practix - Perfect Your Performance</title>
+</head>
+
+<body>
+<img SRC="gimpisforpussies.png" class="blackbox"/>
+<img SRC="gimpisforpussies2.png" class="blackbox2"/>
+<ul>
+
+  <li><a class="active" href="homepage.html">Home</a></li>
+  <li><a href="about.html">About</a></li>
+
+  <li style="float:right">
+		<div class="dropdown">
+			<button onclick="myFunction()" class="dropbtn"></button>
+			<div id="myDropdown" class="dropdown-content">
+				<a href="REALsignup.html" class="fancytext">Sign Up</a>
+				<a href="REALlogin.html" class="fancytext">Log In</a>
+			</div>
+	</div>
+  </li>
+</ul>
+<form>
+<div class="Login">
+ <center> <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Welcome Back!</h1></center>
+  Username:
+  <input type="text" name="username" placeholder="Username">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+   Password:
+  <input type="password" name="password" placeholder="Password">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
+  <center><a href="REALsignup.html"> Not registered yet? Sign up here!</a></center>
+  <div id="submit">
+  <a href= "REALsignup.html" class="btn btn-sm animated-button victoria-three">Submit</a>
+</div></div>
+</form>
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+</script>
+</body>
+</html>

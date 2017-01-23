@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="home.css">
+<link href='https://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
+<html>
+<head>
+<title>Practix - Perfect Your Performance</title>
+</head>
+<body>
+<!--<div style='position:absolute;z-index:0;left:0;top:0;width:100%;'>
+  <img src='TimesSquareBG.jpg'style='width:100%;' />
+</div>
+-->
+<img SRC="gimpisforpussies.png" class="blackbox"/>
+<img SRC="gimpisforpussies2.png" class="blackbox2"/>
+<ul>
+
+  <li><a class="active" href="homepage.html">Home</a></li>
+  <li><a href="about.html">About</a></li>
+
+  <li style="float:right">
+		<div class="dropdown">
+			<button onclick="myFunction()" class="dropbtn"></button>
+			<div id="myDropdown" class="dropdown-content">
+				<a href="REALsignup.html" class="fancytext">Sign Up</a>
+				<a href="REALlogin.html" class="fancytext">Log In</a>
+			</div>
+	</div>
+  </li>
+</ul>
+<div id = "onlyImage">
+  <img src = "logo.png" style="width:430px;height:180px;">
+</div>
+<div class="midtext"><h1>Perfect Your Performance</h1> </div>
+
+<div id = "buttonL">
+  <!--<a href = "http://172.29.24.150/index.html" class="btn btn-sm animated-button victoria-three">Practice</a> -->
+  <a href = "categories.html" class="btn btn-sm animated-button victoria-three">Get Started</a>
+</div>
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+
+</script>
+
+</body>
+</html>
