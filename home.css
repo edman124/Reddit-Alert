@@ -9,11 +9,14 @@ html{
 }
 .midtext{
 
-  position: absolute;
+ /* position: absolute;*/
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top:25%;
      height: 50px;
      width: 200;
-     top:450px;
-      left:580px;
+    /* top:450px;
+      left:580px;*/
 }
 .dropbtn {
     background-color: #333;
@@ -133,7 +136,7 @@ h1{
 }
 
 #buttonL{
-    position: absolute;
+  /*  position: absolute;*/
     left: 0;
     top: 70%;
     width: 100%;
