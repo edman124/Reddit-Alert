@@ -4,6 +4,8 @@ html{
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    height: 100%;
+    background-position: center center;
     background-repeat: no-repeat;
     background-color: #393939;
 }
@@ -12,7 +14,7 @@ html{
  /* position: absolute;*/
     margin-left: 30%;
     margin-right: 30%;
-    margin-top:25%;
+    margin-top:24%;
      height: 50px;
      width: 200;
     /* top:450px;
@@ -138,8 +140,9 @@ h1{
 #buttonL{
   /*  position: absolute;*/
     left: 0;
-    top: 70%;
+    /*top: 70%;*/
     width: 100%;
+    margin-top:3%;
     text-align: center;
 }
 /* THIS USELESS SHIT WAS PASTED TWICE
